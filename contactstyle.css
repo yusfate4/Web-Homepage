@@ -1,0 +1,7 @@
+.contact-container {
+  height: calc(100% - 5rem - 4rem);
+}
+
+.contact-wrapper {
+  height: 100%;
+}

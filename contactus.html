@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="contactbase.css" />
+    <link rel="stylesheet" href="contactstyle.css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <nav class="home-nav">
+      <div class="logo">
+        <a href="index.html">Worka</a>
+      </div>
+      <ul>
+        <li class="nav-item"><a href="contactus.html">Contact Us</a></li>
+        <li class="nav-item"><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
+    <main class="contact-container">
+      <section class="contact-wrapper">
+        <h3 class="form-header">Contact Us</h3>
+        <div class="form-wrapper">
+          <form action="">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              placeholder="Enter your name"
+              name="name"
+              id="name"
+              required
+            />
+            <label for="email">Email</label>
+            <input
+              type="email"
+              placeholder="Enter your email"
+              id="email"
+              required
+            />
+            <label for="request">Request</label>
+            <textarea
+              placeholder="Please enter your request"
+              name="request"
+              id="request"
+              required
+              rows="5"
+            ></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Worka</p>
+      <p>Copyright &copy;2021</p>
+    </footer>
+  </body>
+</html>
